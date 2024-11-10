@@ -1,0 +1,26 @@
+# this files tells Git to check out and commit these files with CRLF (Carriage Return + Line Feed) or lf (Line Feed) line endings
+# Managing line endings is important when working across different operating systems (Linux, macOS, Windows) since they handle line endings differently.
+
+# Set default behavior to normalize all text files
+* text=auto
+
+# Force specific line endings for certain files
+/mvnw text eol=lf
+*.cmd text eol=crlf
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+Makefile text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+
+# Treat binary files as binary to prevent line ending conversions
+*.jpg binary
+*.png binary
+*.pdf binary
+*.exe binary
+
+# Prevent line ending conversions for lock files
+*.lock -text

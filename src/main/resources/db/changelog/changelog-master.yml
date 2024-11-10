@@ -1,0 +1,4 @@
+﻿databaseChangeLog:
+  - preConditions:
+      - runningAs:
+          username: "postgres"  # database user name

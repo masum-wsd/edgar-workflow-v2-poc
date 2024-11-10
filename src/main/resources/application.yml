@@ -1,0 +1,18 @@
+# Application Configuration
+spring:
+  application:
+    name: edgar-v2-poc
+  main:
+    banner-mode: off
+  profiles:
+    default: dev
+    active: dev
+
+# for logging
+logging:
+  level:
+    root: debug
+    console:
+      level: debug
+      
+      

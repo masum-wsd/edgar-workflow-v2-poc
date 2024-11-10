@@ -1,0 +1,5 @@
+server:
+  port: 8083
+  tomcat:
+    max-connections: 2000
+    accept-count: 200
