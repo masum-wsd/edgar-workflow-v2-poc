@@ -1,7 +1,7 @@
 # Application Configuration
 spring:
   application:
-    name: edgar-v2-poc
+    name: edgar-workflow-v2-poc
   main:
     banner-mode: off
   profiles:

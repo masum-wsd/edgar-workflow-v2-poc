@@ -1,6 +1,7 @@
 ﻿# -- Project information -----------------------------------------------------
-project = 'Your Project Name'
-author = 'Your Name or Team'
+master_doc = 'index'
+project = 'edgar-workflow-v2-poc'
+author = 'Abdullah General Masum'
 release = '0.1'
 
 # -- General configuration ---------------------------------------------------
